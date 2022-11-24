@@ -1,0 +1,19 @@
+{
+  "name": "node_assignment1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "files.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MAHESH-Navoor/node_assignment1.git"
+  },
+  "author": "Mahesh N",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MAHESH-Navoor/node_assignment1/issues"
+  },
+  "homepage": "https://github.com/MAHESH-Navoor/node_assignment1#readme"
+}
