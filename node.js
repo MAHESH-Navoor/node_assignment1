@@ -1,30 +1,18 @@
-let ready=true
-//let ready=false
-//let ready='';
 
 const prom1 = new Promise((resolve,reject)=>{
-    if(ready){
-        const markReady ="This is the ok"
-        resolve(markReady)
-    }
-
-    else{
-        const markNot='Still working'
-        reject(markNot)
-    }
+       
+        resolve('resoved suceffuly...')
+        reject('rejected!!')
+    
 })
 
-console.log()
+prom1.then(
+    (res)=>{
+        console.log(res)
+    },
+    (err)=>{
+        console.log(err)
+    }
+)
 
- 
-const check=()=>{
-    prom1.then(val=>{
-        console.log(`result:  ${val}`);
-    })
-    .catch(err=>{
 
-        console.log(`error show: ${err}`)
-    })
-}
-
-check();
