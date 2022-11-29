@@ -2,7 +2,7 @@
 const prom1 = new Promise((resolve,reject)=>{
        
         resolve('resoved suceffuly...')
-        reject('rejected!!')
+        
     
 })
 
